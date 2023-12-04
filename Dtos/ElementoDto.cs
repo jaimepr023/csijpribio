@@ -44,11 +44,9 @@ namespace csi_jpribui.Dtos
         override
             public string ToString()
         {
-            string todo =
-                "idElemento-->" + idElemento + "\n"+
+            Console.WriteLine("Esto son el nombre del elemento y la cantidad que usted tiene:");
+            string todo =   
                 "nombreElemento--> " + nombreElemento + "\n"+
-                "CodigoElemento--> " + codigoElemento + "\n"+
-                "descripcionElemento--> " + descripcionElemento + "\n"+
                 "cantidadElemento--> " + cantidadElemento + "\n";
                 return todo;
         }
